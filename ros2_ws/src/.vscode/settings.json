@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/media/chandra/Volume/Projects/ROS/ROS/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/rolling/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/media/chandra/Volume/Projects/ROS/ROS/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/rolling/lib/python3.10/site-packages"
+    ]
+}

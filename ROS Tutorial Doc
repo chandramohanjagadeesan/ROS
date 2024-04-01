@@ -1,0 +1,59 @@
+Tutorial for ROS 2: 
+
+Installation Link :
+	https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debians.html
+	
+Source the setup file
+	source /opt/ros/version/setup.bash
+	(This line can be added to the ~/.bashrc so you need not enter everytime a new terminal is opened.
+	
+Ros2 :
+
+ros is arranged in to packages and nodes
+
+rqt_grph for seeing graphs
+
+Ros2 workspace 
+
+Packages
+
+Nodes
+
+Titles 
+
+Ros2 workspace :
+	Install a build tool colcon for Ros2 workspace. 
+	
+		sudo apt install python3-colcon-common-extensions
+	
+	Adding codes in the bash file for auto complete in the bashrc
+	
+		source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+
+Ros2 workspace is a folder
+
+make a src folder inside
+
+colcon build #to build it as ros package
+
+Create a package 
+ros2 pkg create "package_name" --buid-type ament_"cmake/python" --dependencies rclpy
+	we have to choose which type we need we can choose between python and c++
+	each package is a subpart of an application and can have many nodes and dependencies
+	ament is the build system inside colcon build tool
+	rclpy is the python library for ros2
+
+Always build the package from the ros workspace (ros2_ws)
+
+Contents of package 
+	Package.xml
+		
+		we can also add dependencies
+	setup.cfg
+	setup.py 
+	
+	test
+	
+	resource
+	
+	
