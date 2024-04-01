@@ -7,7 +7,7 @@ class DrawCircleNode(Node):
 
     def __init__(self):
         super().__init__("draw_circle")
-        self.cmd_vel_pub = self.create_publisher(Twist, "/turtle1/cmd_vel",10) #initialize a publisher
+        self.cmd_vel_pub = self.create_publisher(Twist, "/turtle1/cmd_vel", 10) #initialize a publisher
         self.get_logger().info("Draw circle is started")
         self.timer = self.create_timer(0.5, self.send_velocity_cmd)
 

@@ -56,4 +56,13 @@ Contents of package
 	
 	resource
 	
+ros2 topic list   #Lists all the topic
+
+ros2 topic info "TopicName" #Give info of type of data and subscribers and publishers to the topic
+
+ros2 topic echo "Topicname" #Creates a subscribers and prints the messages
+
+ros2 interface show "msg_name" #gives inofrmation about the messages
+
+	
 	
