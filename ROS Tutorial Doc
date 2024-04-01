@@ -64,5 +64,12 @@ ros2 topic echo "Topicname" #Creates a subscribers and prints the messages
 
 ros2 interface show "msg_name" #gives inofrmation about the messages
 
-	
+chmod +x "filename" to make it in to a executable
+
+#!/usr/bin/env python3 should be added as the first line  
+
+for subsribing data
+	self.pose_subscriber = self.create_subscription(
+            "messagetype", "messagename", "callbackfunction", "buffersize")
+
 	
