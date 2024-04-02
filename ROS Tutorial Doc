@@ -71,5 +71,12 @@ chmod +x "filename" to make it in to a executable
 for subsribing data
 	self.pose_subscriber = self.create_subscription(
             "messagetype", "messagename", "callbackfunction", "buffersize")
+            
+Ros2 Service
 
+	Interaction as client and server. Topics are not made for clinet server architecture. 			Ros services offer this approach
+	
+	One server can have many clients
+	
+	
 	
